@@ -1,3 +1,7 @@
+//homogenes Array besteht aus nur einem Datentyp und nicht aus mehreren Strukturierten
+//In Zeile 47 wird die URL-STring in ein URL Objekt umgewandelt
+//Zeile 49 For Schleife
+//The Access-Control-Allow-Origin header indicates whether a resource can be shared based by returning the value of the Origin request header, "*", or "null" in the response
 "use strict";
 // Node-Http-Modul importieren
 const Http = require("http");
