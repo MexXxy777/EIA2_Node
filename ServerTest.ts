@@ -43,7 +43,7 @@ namespace ServerTest {
         
         // Response-Body
         _response.write("Zusammenfassung Ihrer Bestellung:" + "<br>");
-        _response.write("schubkarre" + "<br>");
+        _response.write("karren" + "<br>");
         _response.write("Vielen Dank!");
 
         // v
