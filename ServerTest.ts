@@ -46,7 +46,7 @@ namespace ServerTest {
         _response.write("bestellung" + "<br>");
         _response.write("Vielen Dank!");
 
-        // ?
+        // v
         let query: AssocStringString = Url.parse(_request.url, true).query;
         // ?
         for (let key in query)

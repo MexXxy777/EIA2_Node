@@ -36,7 +36,7 @@ var ServerTest;
         _response.write("Zusammenfassung Ihrer Bestellung:" + "<br>");
         _response.write("bestellung" + "<br>");
         _response.write("Vielen Dank!");
-        // ?
+        // v
         let query = Url.parse(_request.url, true).query;
         // ?
         for (let key in query)
