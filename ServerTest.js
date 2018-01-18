@@ -33,9 +33,7 @@ var ServerTest;
         // Header: ?
         _response.setHeader("Access-Control-Allow-Origin", "*");
         // Response-Body
-        _response.write("Zusammenfassung Ihrer Bestellung:" + "<br>");
-        _response.write("karren" + "<br>");
-        _response.write("Vielen Dank!");
+        _response.write("Vielen Dank - Deine Bestellung ist bei uns wie folgt eingegangen:" + "<br>" + "karren" + "<br>");
         // v
         let query = Url.parse(_request.url, true).query;
         // ?
